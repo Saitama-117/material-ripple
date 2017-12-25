@@ -1,5 +1,5 @@
 // Material Ripple effect
-$(".material-ripple").click(function(event) {
+$(document).on('click', '.material-ripple', function(event) {
 	var surface = $(this);
 
 	// create .ink element if it doesn't exist
